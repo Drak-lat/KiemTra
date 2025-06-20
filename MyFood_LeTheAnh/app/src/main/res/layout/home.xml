@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:padding="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:text=" Foody"
+        android:textColor="#4A148C"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvRestaurant_LeTheAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3E5F5"
+        android:divider="@android:color/white"
+        android:dividerHeight="1dp" />
+</LinearLayout>
